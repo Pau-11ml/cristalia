@@ -195,17 +195,17 @@ function Dato({ nombre, valor }) {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: "#f4f7f6" },
+  container: { flex: 1, backgroundColor: "#f5f7f5" },
   contenido: { padding: 22, paddingBottom: 30 },
   etiqueta: {
-    color: "#176b61",
+    color: "#11145b",
     fontSize: 10,
     fontWeight: "800",
     letterSpacing: 1.2,
     marginBottom: 6,
   },
-  titulo: { color: "#163d3b", fontSize: 25, fontWeight: "800" },
-  subtitulo: { color: "#789088", fontSize: 13, marginTop: 8, marginBottom: 22 },
+  titulo: { color: "#11145b", fontSize: 25, fontWeight: "900" },
+  subtitulo: { color: "#7b8495", fontSize: 13, marginTop: 8, marginBottom: 22 },
   estado: {
     backgroundColor: "#fff",
     borderRadius: 10,
@@ -214,7 +214,7 @@ const styles = StyleSheet.create({
   },
   botones: { gap: 9, marginBottom: 15 },
   boton: {
-    backgroundColor: "#176b61",
+    backgroundColor: "#11145b",
     borderRadius: 10,
     padding: 13,
     alignItems: "center",
@@ -224,12 +224,12 @@ const styles = StyleSheet.create({
   botonSecundario: {
     backgroundColor: "#fff",
     borderWidth: 1,
-    borderColor: "#176b61",
+    borderColor: "#11145b",
   },
   textoBoton: { color: "#fff", fontWeight: "800", fontSize: 13 },
-  textoBotonSecundario: { color: "#176b61", fontWeight: "800", fontSize: 13 },
+  textoBotonSecundario: { color: "#11145b", fontWeight: "800", fontSize: 13 },
   tarjeta: { backgroundColor: "#fff", borderRadius: 10, padding: 12 },
-  nombreArchivo: { color: "#24413e", fontWeight: "800", marginBottom: 8 },
+  nombreArchivo: { color: "#25285e", fontWeight: "800", marginBottom: 8 },
   fila: {
     flexDirection: "row",
     justifyContent: "space-between",
@@ -237,7 +237,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: "#eef3f1",
   },
-  nombreDato: { color: "#789088", fontSize: 13 },
-  valorDato: { color: "#24413e", fontSize: 13, fontWeight: "700" },
+  nombreDato: { color: "#7b8495", fontSize: 13 },
+  valorDato: { color: "#25285e", fontSize: 13, fontWeight: "700" },
   aviso: { color: "#b45309", fontSize: 12, marginTop: 10 },
 });

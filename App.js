@@ -23,7 +23,7 @@ export default function App() {
 
   let pantalla;
   if (pantallaActual === 'solicitudes'){
-    pantalla = <SolicitudScreen/>
+    pantalla = <SolicitudScreen onNavigate={setPantallaActual}/>
   } else if (pantallaActual === 'ubicacion'){
     pantalla = <UbicacionScreen/>
   } else if (pantallaActual === 'perfil'){
@@ -31,7 +31,7 @@ export default function App() {
   } else if (pantallaActual === 'notificaciones') {
     pantalla = <NotificacionesPush/>
   } else{
-    pantalla = <InicioScreen/>
+    pantalla = <InicioScreen onNavigate={setPantallaActual}/>
   }
 
   return(
