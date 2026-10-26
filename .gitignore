@@ -1,0 +1,20 @@
+node_modules/
+.expo/
+dist/
+.env
+.env.*
+!.env.example
+
+# Private signing and service-account credentials
+*-firebase-adminsdk-*.json
+service-account*.json
+google-service-account*.json
+*.jks
+*.keystore
+*.p8
+
+# Local tooling and operating-system files
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
