@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "primera-app-movil",
+    "slug": "primera-app-movil",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "ec.edu.cristalia.solicitudes.grupo5",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Cristalia usa tu ubicación para registrar el lugar de la obra en cada cotización."
+        }
+      ],
+      "expo-notifications",
+      "expo-status-bar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fc910fdd-2359-458e-98f4-45f99e97291a"
+      }
+    },
+    "owner": "pau11-ml"
+  }
+}

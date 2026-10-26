@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "397719706044",
+    "project_id": "cristalia-13b72",
+    "storage_bucket": "cristalia-13b72.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397719706044:android:c6cd7e240f045fd8eab3b9",
+        "android_client_info": {
+          "package_name": "ec.edu.cristalia.solicitudes.grupo5"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO_EagDQzklyHx1wdSk2yBlM0xNOZCoIE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

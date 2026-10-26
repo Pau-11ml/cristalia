@@ -1,0 +1,16 @@
+{"_e":"root:init","_t":1792434957444,"format":"v0-jsonl","version":"57.0.31"}
+{"_e":"env:mode","_t":1792434959025,"nodeEnv":"production","babelEnv":"production","mode":"production"}
+{"_e":"env:load","_t":1792434959030,"mode":"production","files":[],"env":{}}
+{"_e":"devserver:start","_t":1792434959632,"mode":"production","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":true}
+{"_e":"metro:config","_t":1792434960918,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":true,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1792434961566,"atlas":false,"workers":8,"host":null,"port":null}
+{"_e":"metro:bundling:started","_t":1792434962211,"id":"1","platform":"android","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:done","_t":1792434982064,"id":"1","total":591,"ms":19853.5591}
+{"_e":"root:init","_t":1792771518181,"format":"v0-jsonl","version":"57.0.31"}
+{"_e":"env:mode","_t":1792771518441,"nodeEnv":"production","babelEnv":"production","mode":"production"}
+{"_e":"env:load","_t":1792771518447,"mode":"production","files":[],"env":{}}
+{"_e":"devserver:start","_t":1792771518652,"mode":"production","web":true,"baseUrl":"","asyncRoutes":false,"routerRoot":"../..\\..\\app","serverComponents":false,"serverActions":false,"serverRendering":false,"apiRoutes":false,"exporting":true}
+{"_e":"metro:config","_t":1792771519048,"serverRoot":"../..\\..","projectRoot":"../..\\..","exporting":true,"flags":{"autolinkingModuleResolution":false,"serverActions":false,"serverComponents":false,"reactCompiler":false,"optimizeGraph":false,"treeshaking":false,"logbox":false}}
+{"_e":"metro:instantiate","_t":1792771519235,"atlas":false,"workers":8,"host":null,"port":null}
+{"_e":"metro:bundling:started","_t":1792771519480,"id":"1","platform":"web","environment":null,"entry":"index.js"}
+{"_e":"metro:bundling:done","_t":1792771523175,"id":"1","total":281,"ms":3694.9438}
